@@ -41,6 +41,5 @@ end
 task :copy_config_files do
   run "cp #{shared_path}/config/database.yml #{release_path}/config"
   run "cp #{shared_path}/config/email.yml #{release_path}/config"
-  run "cp #{shared_path}/config/settings.yml #{release_path}/config"
 end
 after "deploy:update_code", :copy_config_files
