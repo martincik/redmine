@@ -19,4 +19,3 @@
 /vendor/rails
 *.rbc
 config/deploy.rb
-config/settings.yml
