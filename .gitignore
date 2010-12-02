@@ -18,3 +18,4 @@
 /tmp/test/*
 /vendor/rails
 *.rbc
+config/deploy.rb
