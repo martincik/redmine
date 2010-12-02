@@ -7,6 +7,11 @@ gem "rubytree", "0.5.2", :require => "tree"
 gem "RedCloth", "~>4.2.3", :require => "redcloth"
 gem "mysql"
 
+# backlogs plugin
+gem 'holidays'
+gem 'icalendar'
+gem 'prawn'
+
 group :development do
   gem 'capistrano'
   gem 'capistrano-ext'
