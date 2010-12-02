@@ -25,6 +25,8 @@ GEM
     hoe (2.7.0)
       rake (>= 0.8.7)
       rubyforge (>= 2.0.4)
+    holidays (1.0.0)
+    icalendar (1.1.5)
     json_pure (1.4.6)
     mocha (0.9.10)
       rake
@@ -36,6 +38,13 @@ GEM
     net-ssh (2.0.23)
     net-ssh-gateway (1.0.1)
       net-ssh (>= 1.99.1)
+    prawn (0.8.4)
+      prawn-core (>= 0.8.4, < 0.9)
+      prawn-layout (>= 0.8.4, < 0.9)
+      prawn-security (>= 0.8.4, < 0.9)
+    prawn-core (0.8.4)
+    prawn-layout (0.8.4)
+    prawn-security (0.8.4)
     rack (1.0.1)
     rails (2.3.5)
       actionmailer (= 2.3.5)
@@ -60,8 +69,11 @@ DEPENDENCIES
   capistrano
   capistrano-ext
   edavis10-object_daddy
+  holidays
+  icalendar
   mocha
   mysql
+  prawn
   rack (= 1.0.1)
   rails (= 2.3.5)
   rubytree (= 0.5.2)
