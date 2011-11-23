@@ -6,6 +6,8 @@ gem "rack"
 gem "rubytree", "0.5.2", :require => "tree"
 gem "RedCloth", "~>4.2.3", :require => "redcloth"
 gem "mysql"
+gem 'whenever'
+gem 'backup', '~>3.0.16'
 
 # backlogs plugin
 gem 'holidays'
