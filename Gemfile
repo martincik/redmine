@@ -7,9 +7,9 @@ gem "rubytree", "0.5.2", :require => "tree"
 gem "RedCloth", "~>4.2.3", :require => "redcloth"
 gem "mysql"
 gem 'whenever'
-gem 'backup', '~>3.0.16'
 gem 'mail'
-gem 'fog', '~>0.7.0'
+gem 'backup', '=3.0.16'
+gem 'fog', '=0.7.1'
 
 # backlogs plugin
 gem 'holidays'
