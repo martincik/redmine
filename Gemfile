@@ -8,6 +8,7 @@ gem "RedCloth", "~>4.2.3", :require => "redcloth"
 gem "mysql"
 gem 'whenever'
 gem 'backup', '~>3.0.16'
+gem 'mail'
 
 # backlogs plugin
 gem 'holidays'
