@@ -7,9 +7,9 @@ gem "rubytree", "0.5.2", :require => "tree"
 gem "RedCloth", "~>4.2.3", :require => "redcloth"
 gem "mysql"
 gem 'whenever'
-gem 'mail', '2.2.15'
-gem 'backup', '=3.0.16'
-gem 'fog', '=0.7.1'
+gem 'mail'
+gem 'backup'
+gem 'fog'
 
 # backlogs plugin
 gem 'holidays'
@@ -19,6 +19,7 @@ gem 'prawn'
 group :development do
   gem 'capistrano'
   gem 'capistrano-ext'
+  gem 'ruby-debug'
 end
 
 group :test do
