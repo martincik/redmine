@@ -45,7 +45,7 @@ Backup::Model.new(:daily, 'Daily backup') do
     s3.access_key_id      = AWS['access']
     s3.secret_access_key  = AWS['secret']
     s3.region             = 'eu-west-1'
-    s3.bucket             = "redmine-foundum-com-backup"
+    s3.bucket             = "redmine-foundum.com-backup"
     s3.keep               = :all
   end
 
