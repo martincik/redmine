@@ -14,13 +14,13 @@ Backup::Model.new(:daily, 'Daily backup') do
   notify_by Mail do |mail|
     mail.on_failure           = true
     mail.on_success           = true
-    mail.from                 = EMAIL['username']
+    mail.from                 = EMAIL['smtp_settings']['user_name']
     mail.to                   = "ladislav@foundum.com"
     mail.address              = "smtp.gmail.com"
     mail.port                 = '587'
     mail.domain               = "foundum.com"
-    mail.user_name            = EMAIL['username']
-    mail.password             = EMAIL['password']
+    mail.user_name            = EMAIL['smtp_settings']['user_name']
+    mail.password             = EMAIL['smtp_settings']['password']
     mail.authentication       = "plain"
     mail.enable_starttls_auto = true
   end
