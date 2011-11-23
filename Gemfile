@@ -1,8 +1,8 @@
 source :rubygems
 
 gem "bundler"
-gem "rails", "2.3.5"
-gem "rack", "1.0.1"
+gem "rails", "2.3.11"
+gem "rack"
 gem "rubytree", "0.5.2", :require => "tree"
 gem "RedCloth", "~>4.2.3", :require => "redcloth"
 gem "mysql"
