@@ -7,7 +7,7 @@ gem "rubytree", "0.5.2", :require => "tree"
 gem "RedCloth", "~>4.2.3", :require => "redcloth"
 gem "mysql"
 gem 'whenever'
-gem 'mail'
+gem 'mail', '2.2.15'
 gem 'backup', '=3.0.16'
 gem 'fog', '=0.7.1'
 
