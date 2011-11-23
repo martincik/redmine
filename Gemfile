@@ -9,6 +9,7 @@ gem "mysql"
 gem 'whenever'
 gem 'backup', '~>3.0.16'
 gem 'mail'
+gem 'fog'
 
 # backlogs plugin
 gem 'holidays'
