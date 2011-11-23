@@ -108,7 +108,7 @@ DEPENDENCIES
   capistrano
   capistrano-ext
   edavis10-object_daddy
-  fog
+  fog (~> 0.7.0)
   holidays
   icalendar
   mail
