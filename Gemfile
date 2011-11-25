@@ -10,6 +10,7 @@ gem 'whenever'
 gem 'mail'
 gem 'backup'
 gem 'fog'
+gem 'i18n', '0.4.1'
 
 # backlogs plugin
 gem 'holidays'
