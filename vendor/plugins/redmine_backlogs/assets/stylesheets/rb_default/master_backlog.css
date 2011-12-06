@@ -212,6 +212,9 @@
   position:relative;
   width:100%;
 }
+#backlogs_container .stories .story.closed{
+  color: #999;
+}
 #backlogs_container .stories .story.saving{
   background-image:url('images/ajax.gif');
   background-repeat:no-repeat;
@@ -269,7 +272,18 @@
   padding:5px 2px 4px 2px;
   position:absolute;
   top:1px;
-  width:375px;
+  width:335px;
+  white-space:nowrap;
+}
+#backlogs_container .stories .story .initials{
+  display:block;
+  height:15px;
+  left:415px;
+  overflow:hidden;
+  padding:5px 2px 4px 2px;
+  position:absolute;
+  top:1px;
+  width:40px;
   white-space:nowrap;
 }
 #backlogs_container .stories .story.too_long .subject{
