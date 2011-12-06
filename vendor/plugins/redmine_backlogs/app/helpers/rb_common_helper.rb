@@ -10,7 +10,7 @@ module RbCommonHelper
   end
 
   def assignee_initials_or_empty(story)
-    story.blank? || story.assigned_to.blank? ? "" : "#{story.assigned_to.firstname.first.uppercase}#{story.assigned_to.lastname.last.uppercase}"
+    story.blank? || story.assigned_to.blank? ? "" : "#{story.assigned_to.firstname.first}#{story.assigned_to.lastname.last}"
   end
 
   def blocked_ids(blocked)
