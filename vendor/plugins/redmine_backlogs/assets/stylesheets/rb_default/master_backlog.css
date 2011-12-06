@@ -272,7 +272,7 @@
   padding:5px 2px 4px 2px;
   position:absolute;
   top:1px;
-  width:345px;
+  width:335px;
   white-space:nowrap;
 }
 #backlogs_container .stories .story .initials{
@@ -283,7 +283,7 @@
   padding:5px 2px 4px 2px;
   position:absolute;
   top:1px;
-  width:30px;
+  width:40px;
   white-space:nowrap;
 }
 #backlogs_container .stories .story.too_long .subject{
@@ -301,7 +301,7 @@
 #backlogs_container .stories .story .status_id.editable {
   display:block;
   height:15px;
-  left:455px;
+  left:445px;
   padding:5px 2px 4px 9px;
   position:absolute;
   top:1px;
