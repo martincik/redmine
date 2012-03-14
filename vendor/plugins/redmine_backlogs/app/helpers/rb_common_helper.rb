@@ -18,7 +18,7 @@ module RbCommonHelper
   end
 
   def highlith_by_priority(story)
-    story.blank? || story.priority.blank? ? "" : "#{story.priority.name.lowercase}"
+    story.blank? || story.priority.blank? ? "" : "#{story.priority.name.downcase}"
   end
 
   def blocked_ids(blocked)
