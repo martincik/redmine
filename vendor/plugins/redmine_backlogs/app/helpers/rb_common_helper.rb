@@ -1,6 +1,6 @@
 module RbCommonHelper
   unloadable
-  
+
   def assignee_id_or_empty(story)
     story.new_record? ? "" : story.assigned_to_id
   end
@@ -11,6 +11,10 @@ module RbCommonHelper
 
   def assignee_initials_or_empty(story)
     story.blank? || story.assigned_to.blank? ? "" : "#{story.assigned_to.firstname.first}#{story.assigned_to.lastname.first}"
+  end
+
+  def priority_initials(story)
+    story.blank? || story.priority.blank? ? "" : "#{story.priority.name[0,2]}"
   end
 
   def blocked_ids(blocked)
