@@ -308,6 +308,9 @@
 #backlogs_container .stories .story.high .subject{
   color: #ff7f00;
 }
+#backlogs_container .stories .story.low .subject{
+  color: #444;
+}
 
 #backlogs_container .stories .story.too_long .subject{
   width:333px;
