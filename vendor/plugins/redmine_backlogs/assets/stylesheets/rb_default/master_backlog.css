@@ -286,6 +286,17 @@
   width:40px;
   white-space:nowrap;
 }
+#backlogs_container .stories .story .priority {
+  display:block;
+  height:15px;
+  left:430px;
+  overflow:hidden;
+  padding:5px 2px 4px 2px;
+  position:absolute;
+  top:1px;
+  width:20px;
+  white-space:nowrap;
+}
 #backlogs_container .stories .story.too_long .subject{
   width:333px;
 }
