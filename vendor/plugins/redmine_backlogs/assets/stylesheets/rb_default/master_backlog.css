@@ -302,11 +302,11 @@
   color: #f00;
   font-weight: bold;
 }
-#backlogs_container .stories .story.immediate .subject{
+#backlogs_container .stories .story.urgent .subject{
   color: #f00;
 }
-#backlogs_container .stories .story.high.subject{
-  color: orange;
+#backlogs_container .stories .story.high .subject{
+  color: #ff7f00;
 }
 
 #backlogs_container .stories .story.too_long .subject{
