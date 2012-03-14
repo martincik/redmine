@@ -289,7 +289,7 @@
 #backlogs_container .stories .story .priority {
   display:block;
   height:15px;
-  left:430px;
+  left:437px;
   overflow:hidden;
   padding:5px 2px 4px 2px;
   position:absolute;
@@ -297,6 +297,18 @@
   width:20px;
   white-space:nowrap;
 }
+
+#backlogs_container .stories .story.immediate .subject{
+  color: #f00;
+  font-weight: bold;
+}
+#backlogs_container .stories .story.immediate .subject{
+  color: #f00;
+}
+#backlogs_container .stories .story.high.subject{
+  color: orange;
+}
+
 #backlogs_container .stories .story.too_long .subject{
   width:333px;
 }
@@ -312,7 +324,7 @@
 #backlogs_container .stories .story .status_id.editable {
   display:block;
   height:15px;
-  left:445px;
+  left:450px;
   padding:5px 2px 4px 9px;
   position:absolute;
   top:1px;
